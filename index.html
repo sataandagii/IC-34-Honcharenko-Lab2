@@ -3,29 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a1e6aa6fe6.js" crossorigin="anonymous"></script>
+    <title>Лабораторна 2</title>
 </head>
 
-<header style="background-color: #4A505E; height: 130px;  display: flex; align-items: center; ">
+<header>
     
-    <img src = "logo.svg" alt="Logo" style="margin-left: 10px;"/>
-    &nbsp;&nbsp;&nbsp;&nbsp;<button>Каталог</button>&nbsp;&nbsp;
-    <button>Про нас</button>&nbsp;&nbsp;
-    <button>Умови замовлення</button>
+    <img src = "logo.svg" alt="Logo"/>
+    <div id="hdr">
+      <button><b>Каталог</b></button>
+      <button><b>Про нас</b></button>
+      <button><b>Умови замовлення</b></button>
+
+      
+    </div>
+    <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+    <button class="red"><b>Кошик</b></button>
+    
 </header>
 
 <body>
-    <h1 style="color:#C20331">Вітаємо у SmartMeb!</h1>
+    <h1>Вітаємо у SmartMeb!</h1>
     <h2>Доступні категорії товарів:</h2>
-    <ul style="list-style-type:circle">
+    <ul class="zbr">
         <li>Стільці</li>
         <li>Дивани</li>
         <li>Столи</li>
-        <li>Шкафи</li>
+        <li>Шафи</li>
         <li>Ліжка</li>
       </ul>
     <h2>Характеристики товару:</h2>
-    <table style="width:50%">
+    <table class="prdct">
         <tr style="color:#C20331">
           <th>Назва товару</th>
           <th>Ціна</th>
@@ -56,28 +65,28 @@
         </tr>
       </table>
       <h2>Як оформити замовлення?</h2>
-      <ol>
-        <li>Оберіть потрібну категорію меблів.</li>
-        <li>Додайте ваш товар у кошик.</li>
-        <li>Оформіть замовлення вказав контактні дані.</li>
-        <li>Отримайте замовлення протягом 5 робочих днів!</li>
+      <ol class="rectangle">
+        <li><a>Оберіть потрібну категорію меблів.</a></li>
+        <li><a>Додайте ваш товар у кошик.</a></li>
+        <li><a>Оформіть замовлення вказав контактні дані.</a></li>
+        <li><a>Отримайте замовлення протягом 5 робочих днів!</a></li>
       </ol>
       <h2>Зареєструйтеся, щоб оформити замовлення:</h2>
 
       <form>
         <label for="username">Ім'я користувача:</label><br>
-        <input type="text" id="username" name="username" required><br><br>
+        <input class="impt" type="text" id="username" name="username" required><br><br>
         
         <label for="email">Електронна пошта:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+        <input class="impt" type="email" id="email" name="email" required><br><br>
         
         <label for="phone">Телефон:</label><br>
-        <input type="tel" id="phone" name="phone"><br><br>
+        <input class="impt" type="tel" id="phone" name="phone"><br><br>
         
         <label for="address">Адреса доставки:</label><br>
-        <input type="text" id="address" name="address"><br><br>
+        <input class="impt" type="text" id="address" name="address"><br><br>
 
-        <input type='submit' value='Надіслати'>
+        <input class="sbmt" type='submit' value='Надіслати'>
       </form>
 
       <h2>Посилання</h2>
