@@ -1,9 +1,5 @@
 body{
     font-family:system-ui;
-    h1{
-        color:white;
-        background:#e81a4b;
-    }
 }
 
 header{
@@ -71,11 +67,12 @@ button.red{
 #hdr button:hover{
     background-color: white;
     color: #4A505E;
-  }
+}
 
 h1{
-    color:#C20331;
     text-align: center;
+    color:white;
+    background:#e81a4b;
 }
 
 ul{
